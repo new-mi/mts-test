@@ -1,0 +1,19 @@
+i.icon {
+  font-style: normal;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  &_right {
+    margin-left: 8px;
+  }
+  &_l {
+    width: 24px;
+    height: 24px;
+  }
+}

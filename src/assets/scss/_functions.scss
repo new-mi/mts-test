@@ -1,0 +1,7 @@
+@function pxtorem($size) {
+  @return $size/$g-font-size-base-number * 1rem;
+}
+
+@function pxtoem($size) {
+  @return $size/$g-font-size-base-number * 1em;
+}

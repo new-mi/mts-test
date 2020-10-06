@@ -1,0 +1,49 @@
+//=================
+// BREAKPOINTS
+//=================
+$g-brakpoint-mobile: 320px;
+$g-brakpoint-tablet: 768px;
+$g-brakpoint-desktop: 1024px;
+
+
+//=================
+// FONTS
+//=================
+$g-font-family-type-sans: 'MTSSans', 'IBM Plex Sans', sans-serif !default;
+$g-font-family-base: $g-font-family-type-sans;
+$g-font-size-base-number: 16 !default; // only px
+$g-font-size-base:  $g-font-size-base-number * 1px !default; // only px
+$g-line-height-base:  1.5 !default;
+$g-font-weight-base:  400 !default;
+
+
+
+//=================
+// COLORS
+//=================
+$g-color-white: #FFFFFF;
+$g-color-dark: #000000;
+$g-color-text: #001424;
+$g-color-white-smoke: #F2F3F7;
+$g-color-link-water: #E2E5EB;
+$g-color-grey: #BBC1C7;
+$g-color-grey-humburger: #B0B7BF;
+$g-color-grey-footer: #ADB0B3;
+$g-color-grey-border: #E8E8E8;
+$g-color-grey-tab: #6E7782;
+$g-color-grey-raven: #6E7782;
+$g-color-grey-heather: #BBC1C7;
+$g-color-red: #DD0000;
+$g-color-red-hover: #C90000;
+$g-color-deep-blue: #001424;
+$g-color-nav-el: #202D3D;
+
+
+$g-color-accent: $g-color-red;
+
+
+//=================
+// OTHER
+//=================
+$g-transition-duration: 0.25s;
+$g-transition: all $g-transition-duration;
