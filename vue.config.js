@@ -1,3 +1,5 @@
+const { default: Swiper } = require("swiper");
+
 module.exports = {
   css: {
     loaderOptions: {
@@ -5,5 +7,6 @@ module.exports = {
         prependData: `@import '@/assets/scss/_variables.scss';@import '@/assets/scss/_functions.scss';`
       }
     }
-  }
+  },
+  transpileDependencies: ["dom7", "swiper"]
 }

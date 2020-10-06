@@ -24,15 +24,18 @@ export default {
 <style lang="scss">
 .task__card {
   display: flex;
+  flex: 1 0;
   flex-direction: column;
   align-items: flex-start;
   max-width: 100%;
   width: 260px;
+  min-width: 260px;
   height: 100%;
   padding: 30px 25px;
   border-radius: 8px;
   border: 1px solid $g-color-grey-border;
   & > * {
+    max-width: 100%;
     margin-bottom: 20px;
     &:last-child {
       margin-bottom: 0;
@@ -89,6 +92,7 @@ export default {
 @media (min-width: $g-brakpoint-tablet) {
   .task__card {
     width: 276px;
+    min-width: 276px;
     padding: 30px;
   }
 }

@@ -71,7 +71,8 @@ export default {
       overflow: visible;
     }
     .swiper-slide {
-      flex: 0 1
+      // flex: 0 1
+      width: auto !important;
     }
     .swiper-pagination-bullet {
       display: inline-block;

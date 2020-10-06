@@ -28,7 +28,7 @@ export default {
 @media (min-width: $g-brakpoint-tablet) {
   .title-block {
     max-width: 100%;
-    width: 444px;
+    width: 454px;
     justify-content: center;
     text-align: center;
     margin: 0px auto 50px;

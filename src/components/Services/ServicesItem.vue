@@ -31,6 +31,7 @@ export default {
   border-radius: 10px;
   text-decoration: none;
   &-box {
+    flex: 1 0;
     display: flex;
     flex-direction: column;
   }

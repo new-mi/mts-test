@@ -17,6 +17,8 @@
   background-position: center bottom;
   background-size: 230px 200px;
   &__title {
+    max-width: 100%;
+    width: 600px;
     font-size: 32px;
     line-height: 1.2;
     font-weight: 700;

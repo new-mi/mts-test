@@ -30,6 +30,7 @@ export default {
 .pair-click {
   &__list {
     display: flex;
+    flex: 1 0;
     flex-direction: column;
     margin-bottom: 30px;
     .pair-click__option {
@@ -44,7 +45,7 @@ export default {
     flex-shrink: 0;
   }
   &__content {
-    display: flex;
+    display: block;
     flex-direction: column;
   }
   &__button {
@@ -63,6 +64,7 @@ export default {
       margin-bottom: 0;
     }
     &__content {
+      display: flex;
       flex-direction: row;
     }
   }

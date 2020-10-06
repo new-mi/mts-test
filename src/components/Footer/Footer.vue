@@ -57,6 +57,7 @@ export default {
     }
     &_bottom {
       min-height: 56px;
+      height: 56px;
     }
   }
   &__copy {
