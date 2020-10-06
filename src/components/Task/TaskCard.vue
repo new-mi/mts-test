@@ -91,8 +91,7 @@ export default {
 
 @media (min-width: $g-brakpoint-tablet) {
   .task__card {
-    width: 276px;
-    min-width: 276px;
+    width: 270px;
     padding: 30px;
   }
 }
